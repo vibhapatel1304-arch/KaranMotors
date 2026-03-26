@@ -69,7 +69,7 @@ export default function Navbar() {
           {/* CTA Button */}
           <div className="hidden md:flex items-center gap-4">
             <a
-              href="https://wa.me/91 8866141405"
+              href="https://wa.me/918866141405"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-2 bg-accent text-accent-foreground rounded-lg font-semibold hover:shadow-lg hover:shadow-accent/50 transition-all duration-200 text-sm"
