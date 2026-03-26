@@ -51,7 +51,7 @@ export default function HeroSection() {
                 <ArrowRight size={20} />
               </a>
               <a
-                href="https://wa.me/918866141405"
+                href='https://wa.me/918866141405',
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-8 py-4 border border-accent text-accent rounded-lg font-semibold hover:bg-accent/10 transition-all duration-200"
