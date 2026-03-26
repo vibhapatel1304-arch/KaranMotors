@@ -34,13 +34,13 @@ export default function ContactSection() {
     {
       icon: Facebook,
       label: 'Facebook',
-      href: ' href="https://facebook.com/karanmotors1105"',
+      href: ' href="https://facebook.com/karanmotors1105',
       color: 'hover:text-blue-400',
     },
     {
       icon: Instagram,
       label: 'Instagram',
-      href: '"https://instagram.com/karanmotors1105"',
+      href: '"https://instagram.com/karanmotors1105',
       color: 'hover:text-pink-400',
     },
   
