@@ -15,6 +15,10 @@ const navLinks = [
   { name: 'Contact', href: '#contact' },
 ];
 
+// ✅ Single source for WhatsApp link (easy to manage)
+const whatsappLink =
+  'https://wa.me/918866141405?text=Hello%20I%20want%20to%20know%20about%20your%20courses';
+
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -66,10 +70,10 @@ export default function Navbar() {
             ))}
           </div>
 
-          {/* CTA Button */}
+          {/* Desktop CTA */}
           <div className="hidden md:flex items-center gap-4">
             <a
-              href="https://wa.me/918866141405"
+              href={whatsappLink}
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-2 bg-accent text-accent-foreground rounded-lg font-semibold hover:shadow-lg hover:shadow-accent/50 transition-all duration-200 text-sm"
@@ -101,8 +105,10 @@ export default function Navbar() {
                   {link.name}
                 </a>
               ))}
+
+              {/* Mobile WhatsApp */}
               <a
-                href="https://wa.me/1234567890"
+                href={whatsappLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block px-4 py-2 bg-accent text-accent-foreground rounded-md font-semibold text-center"
